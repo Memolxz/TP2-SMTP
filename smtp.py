@@ -1,7 +1,7 @@
 import socket
 
 def send_email():
-    smtp_server = input("SMTP server (ej: smtp.gmail.com): ")
+    smtp_server = input("SMTP server: ")
     smtp_port = 1025
 
     sender = input("Remitente: ")
